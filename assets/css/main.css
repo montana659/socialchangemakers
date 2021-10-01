@@ -3561,6 +3561,7 @@ input, select, textarea {
 			min-height: 100%;
 			opacity: 1;
 			width: 100%;
+
 		}
 
 			body.is-ie #sidebar > .inner {
@@ -3801,7 +3802,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
-
+			#header {
+				margin-top: 50px
+			}
 			#sidebar {
 				height: 3.5em;
 				left: 0;
