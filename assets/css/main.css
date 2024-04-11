@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #33447F; 
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #456597, #E83E38);
+				background-image: -webkit-linear-gradient(to right, #456597, #E83E38);
+				background-image: -ms-linear-gradient(to right, #456597, #E83E38);
+				background-image: linear-gradient(to right, #456597, #E83E38);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #33447F !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2356,7 +2356,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #33447F;
 		}
 
 		select:focus::-ms-value {
@@ -2525,7 +2525,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #33447F;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2540,7 +2540,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #33447F;
 				}
 
 				.wrapper.style2 .icon.major:before {
@@ -2552,11 +2552,11 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #f47621;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #F79C42;
 				}
 
 /* Image */
@@ -3240,11 +3240,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #33447F;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #374780;
 		}
 
 		.wrapper.style2 {
@@ -3256,11 +3256,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #f47621;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #F79C42;
 		}
 
 		.wrapper.fullscreen {
@@ -3370,7 +3370,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #33447F;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #011461;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3766,10 +3766,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #456597, #E83E38);
+				background-image: -webkit-linear-gradient(to right, #456597, #E83E38);
+				background-image: -ms-linear-gradient(to right, #456597, #E83E38);
+				background-image: linear-gradient(to right, #456597, #E83E38);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3910,3 +3910,19 @@ input, select, textarea {
 			}
 
 		}
+
+/* Video Container */
+
+	.video-container {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		height: 0;
+	  }
+	
+	.video-container iframe{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
